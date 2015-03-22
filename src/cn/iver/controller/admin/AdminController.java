@@ -7,9 +7,6 @@ import cn.iver.model.Topic;
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 
-/**
- * Created with IntelliJ IDEA.
- */
 @Before(AdminInterceptor.class)
 public class AdminController extends Controller {
     public void index(){

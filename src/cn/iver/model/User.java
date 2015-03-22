@@ -7,11 +7,7 @@ import com.jfinal.plugin.ehcache.CacheKit;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: I have A dream
- * Date: 13-3-26
- */
+
 public class User extends Model<User> {
     public static final User dao = new User();
     private static final String USER_CACHE = "user";

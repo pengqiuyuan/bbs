@@ -7,9 +7,7 @@ import com.jfinal.plugin.ehcache.IDataLoader;
 
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- */
+
 public class Model<M extends com.jfinal.plugin.activerecord.Model> extends com.jfinal.plugin.activerecord.Model<M> {
     private String cacheNameForModel;
 

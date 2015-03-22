@@ -7,9 +7,6 @@ import cn.iver.model.Reply;
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 
-/**
- * Created with IntelliJ IDEA.
- */
 public class ReplyController extends Controller {
     public void index(){
         if(0 == getParaToInt(1, 1)){

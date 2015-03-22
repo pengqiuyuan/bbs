@@ -6,11 +6,7 @@ import cn.iver.kit.HtmlKit;
 import com.jfinal.plugin.activerecord.Page;
 import com.jfinal.plugin.ehcache.CacheKit;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: iver
- * Date: 13-3-26
- */
+
 public class Post extends Model<Post> {
     public static final Post dao = new Post();
     private static final String POST_CACHE = "post";

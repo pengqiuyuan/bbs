@@ -5,11 +5,6 @@ import com.jfinal.core.ActionInvocation;
 import com.jfinal.core.Controller;
 import com.jfinal.kit.StringKit;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: StevenChow
- * Date: 13-5-7
- */
 public class UserCheckInterceptor implements Interceptor {
     public void intercept(ActionInvocation ai) {
         Controller controller = ai.getController();

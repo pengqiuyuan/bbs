@@ -4,11 +4,6 @@ import com.jfinal.aop.Interceptor;
 import com.jfinal.core.ActionInvocation;
 import com.jfinal.core.Controller;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: StevenChow
- * Date: 13-5-7
- */
 public class LoginInterceptor implements Interceptor {
     public void intercept(ActionInvocation ai) {
         Controller controller = ai.getController();

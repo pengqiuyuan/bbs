@@ -5,11 +5,7 @@ import com.jfinal.plugin.ehcache.CacheKit;
 
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: iver
- * Date: 13-3-26
- */
+
 public class Module extends Model<Module> {
     public static final Module dao = new Module();
     private static final String MODULE_CACHE = "module";

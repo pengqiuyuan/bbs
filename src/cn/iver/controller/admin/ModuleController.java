@@ -5,9 +5,6 @@ import cn.iver.model.Module;
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 
-/**
- * Created with IntelliJ IDEA.
- */
 @Before(AdminInterceptor.class)
 public class ModuleController extends Controller {
 

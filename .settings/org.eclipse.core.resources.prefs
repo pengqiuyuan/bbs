@@ -1,7 +1,8 @@
-#Sun Mar 22 18:04:26 CST 2015
+#Sun Mar 22 18:59:27 CST 2015
 eclipse.preferences.version=1
 encoding//WebRoot/WEB-INF=UTF-8
 encoding//WebRoot/WEB-INF/beetl=UTF-8
+encoding//WebRoot/WEB-INF/beetl/admin/editPost.html=UTF-8
 encoding//WebRoot/WEB-INF/beetl/admin/editTopic.html=UTF-8
 encoding//WebRoot/WEB-INF/beetl/admin/module.html=UTF-8
 encoding//WebRoot/WEB-INF/beetl/admin/parts/_moduleForm.html=UTF-8

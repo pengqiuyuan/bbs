@@ -7,11 +7,7 @@ import com.jfinal.plugin.ehcache.CacheKit;
 
 import java.util.Date;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: iver
- * Date: 13-3-31
- */
+
 public class Topic extends Model<Topic>{
     public static final Topic dao = new Topic();
     private static final String TOPIC_CACHE = "topic";

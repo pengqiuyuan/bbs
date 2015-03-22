@@ -5,11 +5,6 @@ import com.jfinal.core.Controller;
 import com.jfinal.kit.StringKit;
 import com.jfinal.validate.Validator;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: StevenChow
- * Date: 13-5-8
- */
 public class UpdateUserValidator extends Validator {
     @Override
     protected void validate(Controller c) {

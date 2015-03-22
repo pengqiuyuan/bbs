@@ -3,11 +3,7 @@ package cn.iver.validator;
 import com.jfinal.core.Controller;
 import com.jfinal.validate.Validator;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: StevenChow
- * Date: 13-5-9
- */
+
 public class PostValidator extends Validator {
     @Override
     protected void validate(Controller c) {

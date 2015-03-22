@@ -7,11 +7,7 @@ import com.jfinal.plugin.ehcache.CacheKit;
 
 import java.util.Date;
 
-/**
- * Created with IntelliJ IDEA.
- * Author: iver
- * Date: 13-3-26
- */
+
 public class Reply extends Model<Reply> {
     public static final Reply dao = new Reply();
     private static final String REPLY_CACHE = "reply";

@@ -9,9 +9,6 @@ import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Page;
 
-/**
- * Created with IntelliJ IDEA.
- */
 public class PostController extends Controller {
     public void index(){
         int topicID = getParaToInt(0);

@@ -9,9 +9,6 @@ import cn.iver.validator.TopicValidator;
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 
-/**
- * Created with IntelliJ IDEA.
- */
 public class TopicController extends Controller {
     public void index(){
         forwardAction("/post/" + getParaToInt(0));
